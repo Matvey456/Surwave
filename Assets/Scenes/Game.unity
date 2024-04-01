@@ -5059,7 +5059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 387934932}
-  playerLives: 1200
+  playerLives: 10
   damageToPlayer: 10
   gameUI: {fileID: 289343686}
 --- !u!114 &1327258471

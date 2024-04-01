@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] private EnemyAnimation enemyAnimation;
     [SerializeField] private float speed;
 
     private Rigidbody2D _rb;
@@ -25,7 +24,6 @@ public class Bullet : MonoBehaviour
     {
         if (other.transform.CompareTag("Enemy"))
         {
-            enemyAnimation._anim.SetTrigger("Death");
             Destroy(other.gameObject, 1);
             Destroy(gameObject);
         }

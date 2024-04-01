@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonAnimate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2d2G9a6yA7IJoEEyMwcmZV6fU97" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Desktop/dev/Build\surwave.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\bogda\Desktop\dev\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="" />
+      <created>1709198620078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709198620078</updated>
+      <workItem from="1709198620080" duration="1159000" />
+      <workItem from="1709209506102" duration="6358000" />
+      <workItem from="1709216210190" duration="211000" />
+      <workItem from="1709216462853" duration="211000" />
+      <workItem from="1709218424899" duration="940000" />
+      <workItem from="1709222545392" duration="1739000" />
+      <workItem from="1709225948172" duration="3343000" />
+      <workItem from="1709282726779" duration="4667000" />
+      <workItem from="1709288031718" duration="39000" />
+      <workItem from="1709293233638" duration="2786000" />
+      <workItem from="1709296284119" duration="1021000" />
+      <workItem from="1709297548025" duration="4145000" />
+      <workItem from="1709301901275" duration="394000" />
+      <workItem from="1709302494096" duration="507000" />
+      <workItem from="1709307457372" duration="1051000" />
+      <workItem from="1709310627446" duration="765000" />
+      <workItem from="1709312362182" duration="15000" />
+      <workItem from="1709395487919" duration="327000" />
+      <workItem from="1709397292233" duration="304000" />
+      <workItem from="1709398732454" duration="310000" />
+      <workItem from="1709402736557" duration="695000" />
+      <workItem from="1709405897965" duration="412000" />
+      <workItem from="1709456393051" duration="2701000" />
+      <workItem from="1709467367273" duration="1147000" />
+      <workItem from="1709471611957" duration="1714000" />
+      <workItem from="1709477001453" duration="723000" />
+      <workItem from="1709478826243" duration="3017000" />
+      <workItem from="1709482837025" duration="387000" />
+      <workItem from="1709536379441" duration="1322000" />
+      <workItem from="1709537863930" duration="786000" />
+      <workItem from="1709538802888" duration="141000" />
+      <workItem from="1709539324718" duration="288000" />
+      <workItem from="1709551890596" duration="394000" />
+      <workItem from="1709556257007" duration="59000" />
+      <workItem from="1709558286840" duration="400000" />
+      <workItem from="1709558725110" duration="620000" />
+      <workItem from="1709560019951" duration="833000" />
+      <workItem from="1709629882456" duration="319000" />
+      <workItem from="1710134440106" duration="761000" />
+      <workItem from="1710136466691" duration="2125000" />
+      <workItem from="1710145648701" duration="1590000" />
+      <workItem from="1710147825221" duration="124000" />
+      <workItem from="1710148363645" duration="1910000" />
+      <workItem from="1710154028479" duration="674000" />
+      <workItem from="1710166060152" duration="807000" />
+      <workItem from="1710167953661" duration="2784000" />
+      <workItem from="1710171996336" duration="610000" />
+      <workItem from="1710172872671" duration="156000" />
+      <workItem from="1710225427077" duration="995000" />
+      <workItem from="1710235416185" duration="1273000" />
+      <workItem from="1710261371804" duration="494000" />
+      <workItem from="1710311875842" duration="1995000" />
+      <workItem from="1710315230593" duration="2230000" />
+      <workItem from="1710319685803" duration="1775000" />
+      <workItem from="1710327523616" duration="86000" />
+      <workItem from="1710327822211" duration="1576000" />
+      <workItem from="1710330736941" duration="979000" />
+      <workItem from="1710332745696" duration="2169000" />
+      <workItem from="1710344680626" duration="138000" />
+      <workItem from="1710345288452" duration="121000" />
+      <workItem from="1710349001469" duration="1049000" />
+      <workItem from="1710350343719" duration="587000" />
+      <workItem from="1711031527366" duration="938000" />
+      <workItem from="1711045339467" duration="662000" />
+      <workItem from="1711092583236" duration="1488000" />
+      <workItem from="1711096969602" duration="143000" />
+      <workItem from="1711097593390" duration="301000" />
+      <workItem from="1711104160778" duration="543000" />
+      <workItem from="1711106393734" duration="287000" />
+      <workItem from="1711106702770" duration="933000" />
+      <workItem from="1711107836336" duration="1401000" />
+      <workItem from="1711111129958" duration="40000" />
+      <workItem from="1711127627559" duration="1177000" />
+      <workItem from="1711200536343" duration="1137000" />
+      <workItem from="1711210844987" duration="2360000" />
+      <workItem from="1711221213729" duration="1652000" />
+      <workItem from="1711271346569" duration="1834000" />
+      <workItem from="1711283575631" duration="115000" />
+      <workItem from="1711283949965" duration="875000" />
+      <workItem from="1711288396494" duration="1359000" />
+      <workItem from="1711355555923" duration="894000" />
+      <workItem from="1711356784937" duration="601000" />
+      <workItem from="1711360387779" duration="1694000" />
+      <workItem from="1711368505685" duration="2492000" />
+      <workItem from="1711441573856" duration="576000" />
+      <workItem from="1711456557931" duration="1879000" />
+      <workItem from="1711477064199" duration="1673000" />
+      <workItem from="1711525392607" duration="770000" />
+      <workItem from="1711526405985" duration="89000" />
+      <workItem from="1711634418108" duration="45000" />
+      <workItem from="1711713380007" duration="1272000" />
+      <workItem from="1711728506148" duration="5148000" />
+      <workItem from="1711825301613" duration="792000" />
+      <workItem from="1711904621513" duration="79000" />
+      <workItem from="1711905811461" duration="1102000" />
+      <workItem from="1711956015845" duration="960000" />
+      <workItem from="1711982900402" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1711982935774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1711982935774" />
+    <state width="1877" height="386" key="GridCell.Tab.0.bottom" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.0.center" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.0.left" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.0.right" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.1.bottom" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.1.center" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.1.left" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.1.right" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.2.bottom" timestamp="1711200964899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964899" />
+    <state width="1877" height="386" key="GridCell.Tab.2.center" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.2.left" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.2.right" timestamp="1711200964898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964898" />
+    <state width="1877" height="386" key="GridCell.Tab.3.bottom" timestamp="1711200964899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964899" />
+    <state width="1877" height="386" key="GridCell.Tab.3.center" timestamp="1711200964899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964899" />
+    <state width="1877" height="386" key="GridCell.Tab.3.left" timestamp="1711200964899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964899" />
+    <state width="1877" height="386" key="GridCell.Tab.3.right" timestamp="1711200964899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1711200964899" />
+    <state x="727" y="244" key="RiderGenerateDialog" timestamp="1711272058356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="244" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1711272058356" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1711906350318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1711906350318" />
+    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1711222566347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1711222566347" />
+  </component>
+</project>

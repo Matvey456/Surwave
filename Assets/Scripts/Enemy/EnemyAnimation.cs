@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class EnemyAnimation : MonoBehaviour
 {
+    [SerializeField] private AudioSource deathSound;
     [SerializeField] private Enemy enemy;
     
-    public Animator _anim;
+    private Animator _anim;
 
     private void Start() => _anim = GetComponent<Animator>();
 
@@ -17,4 +18,13 @@ public class EnemyAnimation : MonoBehaviour
     private void Run() => _anim.SetFloat("Speed", enemy.rb.velocity.magnitude > 0 ? 1 : 0);
 
     private void Shoot() => _anim.SetBool("Shoot", enemy.GetDistance());
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.CompareTag("Bullet"))
+        {
+            deathSound.Play();
+            _anim.SetTrigger("Death");
+        }
+    }
 }
