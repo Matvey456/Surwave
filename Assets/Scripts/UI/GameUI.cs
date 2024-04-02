@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
+    [SerializeField] private PlayerShoot playerShoot;
+    
+    [SerializeField] private Animator animateUI;
+    
     [SerializeField] private GameObject loseMenu;
     [SerializeField] private GameObject winMenu;
-    [SerializeField] public TMP_Text winAndLoseText;
+    public TMP_Text winAndLoseText;
+
+    private void Update() => GunIconIdle();
+    
     public void LoseMenuAnimate(float endValue, float speed)
     {
         loseMenu.transform.DOMoveY(endValue, speed);
@@ -29,6 +36,6 @@ public class GameUI : MonoBehaviour
         SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
-    
 
+    private void GunIconIdle() => animateUI.SetBool("Reload", playerShoot.Reload());
 }

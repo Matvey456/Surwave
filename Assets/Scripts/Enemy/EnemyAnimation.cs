@@ -14,8 +14,12 @@ public class EnemyAnimation : MonoBehaviour
         Run();
         Shoot();
     }
-    
-    private void Run() => _anim.SetFloat("Speed", enemy.rb.velocity.magnitude > 0 ? 1 : 0);
+
+    public bool Run()
+    {
+        _anim.SetFloat("Speed", enemy.rb.velocity.magnitude > 0 ? 1 : 0);
+        return true;
+    }
 
     private void Shoot() => _anim.SetBool("Shoot", enemy.GetDistance());
 

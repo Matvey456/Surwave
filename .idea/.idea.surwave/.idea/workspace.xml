@@ -6,11 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Death.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Death.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/88291__s_dij__whisk_reload_05.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/88291__s_dij__whisk_reload_05.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Bullet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Bullet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/UI Health.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/UI Health.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +45,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonAnimate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuButtons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShooting.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +212,11 @@
       <workItem from="1711905811461" duration="1102000" />
       <workItem from="1711956015845" duration="960000" />
       <workItem from="1711982900402" duration="45000" />
+      <workItem from="1711994387486" duration="1265000" />
+      <workItem from="1712047600428" duration="2058000" />
+      <workItem from="1712057838898" duration="1656000" />
+      <workItem from="1712060240267" duration="92000" />
+      <workItem from="1712062788783" duration="931000" />
     </task>
     <servers />
   </component>
@@ -303,6 +317,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1711906350318" />
+    <state x="0" y="0" width="1893" height="1025" key="dock-window-1" timestamp="1712059756051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1893" height="1025" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1712059756051" />
     <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1711222566347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
