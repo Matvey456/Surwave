@@ -15,19 +15,19 @@ public class EnemyAnimation : MonoBehaviour
         Shoot();
     }
 
-    public bool Run()
-    {
-        _anim.SetFloat("Speed", enemy.rb.velocity.magnitude > 0 ? 1 : 0);
-        return true;
-    }
-
+    private void Run() => _anim.SetFloat("Speed", enemy.rb.velocity.magnitude > 0 ? 1 : 0);
+    
     private void Shoot() => _anim.SetBool("Shoot", enemy.GetDistance());
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.CompareTag("Bullet"))
         {
-            deathSound.Play();
+            if (!deathSound.isPlaying)
+            {
+                deathSound.Play();
+            }
+            
             _anim.SetTrigger("Death");
         }
     }

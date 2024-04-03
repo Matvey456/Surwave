@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.transform.CompareTag("Enemy"))
+        if (other.transform.CompareTag("EnemyBullet"))
         {
             Damage(damageToPlayer);
             if (healthBar.value == 0)
@@ -27,7 +27,6 @@ public class PlayerHealth : MonoBehaviour
                 gameUI.LoseMenuAnimate(0, 1);
                 Invoke("StopTime", 1);
             }
-            Debug.Log($"ауч!! {damageToPlayer}");
         }
     }
 
@@ -36,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    private void Damage(int damage)
+    public void Damage(int damage)
     {
         playerLives -= damage;
         healthBar.value = playerLives;

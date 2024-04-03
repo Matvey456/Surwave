@@ -12,12 +12,12 @@ public class Bullet : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate() => BulletDirection();
+    private void FixedUpdate() => BulletDirection(speed, _rb);
 
-    private void BulletDirection()
+    public void BulletDirection(float speed, Rigidbody2D rigidbody2D)
     {
         _direction = transform.right;
-        _rb.velocity = _direction * speed;
+        rigidbody2D.velocity = _direction * speed;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -7,9 +7,6 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private GameObject firePoint;
 
-    [SerializeField] private Sprite gunImage, reloadImage;
-    [SerializeField] private Image image;
-    
     [SerializeField] private AudioSource playerShooting;
     [SerializeField] private AudioSource playerReloading;
     [SerializeField] private AudioSource playerNoBullet;

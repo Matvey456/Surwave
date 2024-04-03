@@ -35,7 +35,10 @@ public class Enemy : MonoBehaviour
 
     private void Flip()
     {
-        transform.localScale = transform.position.x < target.transform.position.x ? _size : new Vector3(-1, 1, 1);
+        if (rb.velocity.x > 0.15) 
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+        if (rb.velocity.x < -0.15)
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
     }
 
     public bool GetDistance()

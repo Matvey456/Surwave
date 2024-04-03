@@ -1,8 +1,9 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-    [SerializeField] private EnemyAnimation enemyAnimation;
+    [SerializeField] private Enemy enemy;
     
     [SerializeField] private GameObject bulletPrefab;
     private Transform _firePoint;
@@ -10,13 +11,21 @@ public class EnemyShooting : MonoBehaviour
     private void Start()
     {
         _firePoint = GetComponentInChildren<Transform>();
-    }
 
-    private void Update()
+        StartCoroutine(nameof(Spawn));
+    }
+    
+    private IEnumerator Spawn()
     {
-        if (enemyAnimation.Run())
+        while (true)
         {
-            Instantiate(bulletPrefab, _firePoint.position, Quaternion.identity);
+            if (enemy.GetDistance())
+            {
+                GameObject bullet = Instantiate(bulletPrefab, _firePoint.position, transform.rotation);
+                Destroy(bullet, 2);
+            }
+        
+            yield return new WaitForSeconds(1f);
         }
     }
 }
