@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1622901272650012815, guid: 21d533eda5f457b4f84f7741953c2674, type: 3}
+  enemy: {fileID: 6493524191405575099, guid: 9af4c9c471686954ca822acb8eeb72ed, type: 3}
   speed: 10
 --- !u!61 &8942482355672584760
 BoxCollider2D:

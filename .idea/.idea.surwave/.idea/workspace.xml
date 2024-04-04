@@ -7,23 +7,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/UI/GunIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/UI/GunIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/UI/GunReload.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/UI/GunReload.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/UI/Image.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/UI/Image.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBulet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyBulet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShooting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,15 +46,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBulet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" />
       </list>
     </option>
   </component>
@@ -235,6 +228,12 @@
       <workItem from="1712155567683" duration="3372000" />
       <workItem from="1712160418315" duration="599000" />
       <workItem from="1712162336444" duration="1846000" />
+      <workItem from="1712168454678" duration="2503000" />
+      <workItem from="1712217593786" duration="267000" />
+      <workItem from="1712221595759" duration="2081000" />
+      <workItem from="1712225178587" duration="5092000" />
+      <workItem from="1712231636820" duration="33000" />
+      <workItem from="1712231870028" duration="926000" />
     </task>
     <servers />
   </component>
@@ -331,17 +330,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="244" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1711272058356" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1711906350318">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1712169880828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1711906350318" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1712169880828" />
     <state x="0" y="0" width="1893" height="1025" key="dock-window-1" timestamp="1712059756051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1893" height="1025" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1712059756051" />
-    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1711222566347">
+    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1712223084345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1711222566347" />
+    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1712223084345" />
   </component>
 </project>

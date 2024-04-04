@@ -4,16 +4,14 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private Slider healthBar;
-    [Space(10)]
-    [SerializeField] private int playerLives = 100;
     [SerializeField] private int damageToPlayer;
 
     [SerializeField] private GameUI gameUI;
 
     private void Start()
     {
-        healthBar.maxValue = playerLives;
-        healthBar.value = playerLives;
+        healthBar.maxValue = StaticHolder.lives;
+        healthBar.value = StaticHolder.lives;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -37,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void Damage(int damage)
     {
-        playerLives -= damage;
-        healthBar.value = playerLives;
+        StaticHolder.lives -= damage;
+        healthBar.value = StaticHolder.lives;
     }
 }

@@ -43,6 +43,8 @@
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerShoot.cs" t="Include" />
           </e>
+          <e p="StaticHolder.cs" t="Include" />
+          <e p="SwitchMode.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="GameUI.cs" t="Include" />
           </e>
