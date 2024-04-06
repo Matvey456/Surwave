@@ -5079,7 +5079,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 387934932}
-  playerLives: 100
   damageToPlayer: 10
   gameUI: {fileID: 289343686}
 --- !u!114 &1327258471
@@ -5096,9 +5095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 7304044689331705687, guid: 21d533eda5f457b4f84f7741953c2674, type: 3}
   firePoint: {fileID: 1368025371}
-  gunImage: {fileID: 1812922971, guid: 297f23239a96d824cbcd2edd56d220da, type: 3}
-  reloadImage: {fileID: -1569676455, guid: 297f23239a96d824cbcd2edd56d220da, type: 3}
-  image: {fileID: 543073986}
   playerShooting: {fileID: 519420035}
   playerReloading: {fileID: 519420036}
   playerNoBullet: {fileID: 519420037}
@@ -5115,6 +5111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363438089}
   - component: {fileID: 1363438088}
+  - component: {fileID: 1363438090}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -5140,7 +5137,6 @@ MonoBehaviour:
   enemyPrefab: {fileID: 6493524191405575098, guid: 9af4c9c471686954ca822acb8eeb72ed, type: 3}
   gameUI: {fileID: 289343686}
   timerToSpawn: 5
-  winWave: 10
   points:
   - {fileID: 1948097243}
   - {fileID: 108776513}
@@ -5165,6 +5161,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363438090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363438087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4beda8e9cb736b49803e2d1ad59c23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPrefab: {fileID: 2619663448913935703, guid: a48d6529f98021741b212eae03090c11, type: 3}
+  timeToSpawn: 16
 --- !u!1 &1368025371
 GameObject:
   m_ObjectHideFlags: 0

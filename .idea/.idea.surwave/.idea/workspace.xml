@@ -8,12 +8,17 @@
     <list default="true" id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBulet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyBulet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UI/Image.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/UI/Image.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mode.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mode.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bg music for main menu in survivor game (81ab511dcfd74c3cbead46365a38a02b).mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Bg music for main menu in survivor game (81ab511dcfd74c3cbead46365a38a02b).mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bg music for survivor game, no voice, ambient (2f9f6690407442b2a9857c509ab0c538).mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Bg music for survivor game, no voice, ambient (2f9f6690407442b2a9857c509ab0c538).mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +45,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonAnimate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuButtons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
@@ -54,9 +57,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Busters.cs" />
       </list>
     </option>
   </component>
@@ -234,6 +241,17 @@
       <workItem from="1712225178587" duration="5092000" />
       <workItem from="1712231636820" duration="33000" />
       <workItem from="1712231870028" duration="926000" />
+      <workItem from="1712254925351" duration="1552000" />
+      <workItem from="1712309016775" duration="134000" />
+      <workItem from="1712312508692" duration="2599000" />
+      <workItem from="1712315296845" duration="182000" />
+      <workItem from="1712315547282" duration="1781000" />
+      <workItem from="1712321204556" duration="1153000" />
+      <workItem from="1712322494946" duration="261000" />
+      <workItem from="1712328140606" duration="3217000" />
+      <workItem from="1712396198480" duration="1762000" />
+      <workItem from="1712398167561" duration="680000" />
+      <workItem from="1712399574754" duration="654000" />
     </task>
     <servers />
   </component>
@@ -338,9 +356,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1893" height="1025" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1712059756051" />
-    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1712223084345">
+    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1712399712602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1712223084345" />
+    <state x="623" y="225" width="672" height="758" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1712399712602" />
   </component>
 </project>

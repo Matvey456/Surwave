@@ -26,6 +26,11 @@ public class PlayerHealth : MonoBehaviour
                 Invoke("StopTime", 1);
             }
         }
+
+        if (other.transform.CompareTag("Health"))
+        {
+            healthBar.value = StaticHolder.lives;
+        }
     }
 
     private void StopTime()

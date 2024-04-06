@@ -13,8 +13,7 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] private GameUI gameUI;
 
     [SerializeField] private int timerToSpawn;
-    [SerializeField] private int winWave;
-    
+
     private int _waveCount;
     private int _timer;
     private int _randomPoint;
@@ -23,7 +22,7 @@ public class EnemySpawn : MonoBehaviour
     
     private void Start()
     {
-        waveCountText.text = $"Wave: {_waveCount}/{winWave}".ToString();
+        waveCountText.text = $"Wave: {_waveCount}/{StaticHolder.waveCount}".ToString();
         _timer = timerToSpawn;
         timerText.text = $"Next wave: {_timer.ToString()}";
 
@@ -34,7 +33,7 @@ public class EnemySpawn : MonoBehaviour
 
     private void CheckWave()
     {
-        if (_waveCount == winWave + 1)
+        if (_waveCount == StaticHolder.waveCount + 1)
         {
             gameUI.winAndLoseText.text = "You win";
             gameUI.WinMenuAnimate(0, 1);
@@ -53,7 +52,7 @@ public class EnemySpawn : MonoBehaviour
         {
             _timer--;
             timerText.text = $"Next wave: {_timer.ToString()}";
-            waveCountText.text = $"Wave: {_waveCount}/{winWave}".ToString();
+            waveCountText.text = $"Wave: {_waveCount}/{StaticHolder.waveCount}".ToString();
 
             if (_timer == 0)
             {

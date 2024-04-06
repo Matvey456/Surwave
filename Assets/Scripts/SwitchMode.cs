@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -6,12 +7,17 @@ public class SwitchMode : MonoBehaviour
 {
     [SerializeField] private Toggle easy, extreme;
     [SerializeField] private Button playButton;
+    [SerializeField] private TMP_Text waveText;
+    [SerializeField] private Slider waveSlider;
 
     private bool _difficultySelected = false;
 
     private void Start() => playButton.interactable = false;
 
-    private void Update() => CheckDifficulty();
+    private void Update()
+    {
+        CheckDifficulty();
+    }
 
     private void CheckDifficulty()
     {
@@ -33,11 +39,13 @@ public class SwitchMode : MonoBehaviour
         {
             if (easy.isOn)
             {
+                StaticHolder.isExtremeMode = false;
                 SceneManager.LoadScene(2);
             }
 
             if (extreme.isOn)
             {
+                StaticHolder.isExtremeMode = true;
                 SceneManager.LoadScene(2);
             }
         }
@@ -52,5 +60,10 @@ public class SwitchMode : MonoBehaviour
     {
         StaticHolder.lives = 1;
     }
-    
+
+    public void Waves()
+    {
+        waveText.text = Mathf.Round(waveSlider.value).ToString();
+        StaticHolder.waveCount = Mathf.RoundToInt(waveSlider.value);
+    }
 }
