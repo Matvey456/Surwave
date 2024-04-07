@@ -8,16 +8,10 @@
     <list default="true" id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/UI/Image.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/UI/Image.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mode.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mode.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bg music for main menu in survivor game (81ab511dcfd74c3cbead46365a38a02b).mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Bg music for main menu in survivor game (81ab511dcfd74c3cbead46365a38a02b).mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bg music for survivor game, no voice, ambient (2f9f6690407442b2a9857c509ab0c538).mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Bg music for survivor game, no voice, ambient (2f9f6690407442b2a9857c509ab0c538).mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -44,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonAnimate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
@@ -60,10 +54,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuButtons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Busters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonAnimate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" />
       </list>
     </option>
   </component>
@@ -252,6 +248,11 @@
       <workItem from="1712396198480" duration="1762000" />
       <workItem from="1712398167561" duration="680000" />
       <workItem from="1712399574754" duration="654000" />
+      <workItem from="1712490309360" duration="1338000" />
+      <workItem from="1712494113610" duration="895000" />
+      <workItem from="1712495844941" duration="915000" />
+      <workItem from="1712499287961" duration="1172000" />
+      <workItem from="1712506217007" duration="183000" />
     </task>
     <servers />
   </component>

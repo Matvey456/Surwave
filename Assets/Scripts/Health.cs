@@ -15,7 +15,6 @@ public class Health : MonoBehaviour
         {
             StaticHolder.lives += _randomHealth;
             Destroy(gameObject);
-            Debug.Log($"working + {_randomHealth}");
         }
     }
 }
