@@ -28,6 +28,7 @@ public class GameUI : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        StaticHolder.lives = StaticHolder.isExtremeMode == false ? 100 : 1;
         Time.timeScale = 1;
     }
     

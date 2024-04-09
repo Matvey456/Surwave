@@ -1,11 +1,9 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
-public class EnemySpawn : MonoBehaviour
+public class EnemySpawn : Sounds
 {
-    [SerializeField] private AudioSource spawnSound;
     [SerializeField] private TMP_Text waveCountText;
     [SerializeField] private TMP_Text timerText;
     [SerializeField] private GameObject enemyPrefab;
@@ -58,7 +56,7 @@ public class EnemySpawn : MonoBehaviour
             {
                 _timer = timerToSpawn;
                 StartCoroutine(nameof(Spawner));
-                spawnSound.Play();
+                PlaySound(sounds[0]);
                 _waveCount++;
             }
             
