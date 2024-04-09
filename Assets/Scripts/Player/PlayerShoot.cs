@@ -2,14 +2,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerShoot : MonoBehaviour
+public class PlayerShoot : Sounds
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private GameObject firePoint;
 
-    [SerializeField] private AudioSource playerShooting;
-    [SerializeField] private AudioSource playerReloading;
-    [SerializeField] private AudioSource playerNoBullet;
+    // [SerializeField] private AudioSource playerShooting;
+    // [SerializeField] private AudioSource playerReloading;
+    // [SerializeField] private AudioSource playerNoBullet;
     
     [SerializeField] private TMP_Text bulletText;
     
@@ -31,7 +31,7 @@ public class PlayerShoot : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 GameObject bullet = Instantiate(bulletPrefab, firePoint.transform.position, transform.rotation);
-                playerShooting.Play();
+                PlaySound(sounds[0]);
             
                 bulletCount--;
                 bulletText.text = $"{bulletCount}/{maxCountBullet}";
@@ -54,11 +54,10 @@ public class PlayerShoot : MonoBehaviour
         {
             bulletCount = maxCountBullet;
             maxCountBullet -= maxCountBullet;
-            playerReloading.Play();
+            PlaySound(sounds[1]);
 
             _isReloading = true;
             Invoke("Check", 1);
-            Debug.Log("Перезарядка сработало");
             return true;
         }
         else if (_isReloading == false)
@@ -71,7 +70,7 @@ public class PlayerShoot : MonoBehaviour
 
     private void Check()
     {
-        playerNoBullet.Play();
+        PlaySound(sounds[2]);
         _isReloading = false;
         bulletText.text = $"{bulletCount}/{maxCountBullet}";
     }

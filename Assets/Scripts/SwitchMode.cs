@@ -14,10 +14,7 @@ public class SwitchMode : MonoBehaviour
 
     private void Start() => playButton.interactable = false;
 
-    private void Update()
-    {
-        CheckDifficulty();
-    }
+    private void Update() => CheckDifficulty();
 
     private void CheckDifficulty()
     {
@@ -51,16 +48,12 @@ public class SwitchMode : MonoBehaviour
         }
     }
     
-    public void EasyMode()
-    {
-        StaticHolder.lives = 100;
-    }
-    
-    public void ExtremeMode()
-    {
-        StaticHolder.lives = 1;
-    }
+    public void EasyMode() => StaticHolder.lives = 100;
 
+    public void ExtremeMode() => StaticHolder.lives = 1;
+
+    public void Back() => SceneManager.LoadScene(0);
+    
     public void Waves()
     {
         waveText.text = Mathf.Round(waveSlider.value).ToString();

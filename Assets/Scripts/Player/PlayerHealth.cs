@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : Sounds
 {
     [SerializeField] private Slider healthBar;
-    [SerializeField] private AudioSource healthAudio;
     [SerializeField] private int damageToPlayer;
 
     [SerializeField] private GameUI gameUI;
@@ -30,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (other.transform.CompareTag("Health"))
         {
-            healthAudio.Play();
+            PlaySound(sounds[0]);
             healthBar.value = StaticHolder.lives;
         }
     }

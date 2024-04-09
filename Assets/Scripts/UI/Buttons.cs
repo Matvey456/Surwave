@@ -1,8 +1,4 @@
-using UnityEngine;
-
-public class Buttons : MonoBehaviour
+public class Buttons : Sounds
 {
-    [SerializeField] private AudioSource buttonAudio;
-
-    public void PlayButtonAudio() => buttonAudio.Play();
+    public void PlayButtonAudio() => PlaySound(sounds[0], 0.5f);
 }

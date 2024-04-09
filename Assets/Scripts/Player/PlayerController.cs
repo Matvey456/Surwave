@@ -3,8 +3,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private AudioSource stepsSound;
-    
     private Rigidbody2D _rb;
     private Vector2 _direction;
 
@@ -34,14 +32,5 @@ public class PlayerController : MonoBehaviour
         
         _direction = new Vector2(_horizontalMove, _vertcalMove);
         _rb.velocity = _direction * speed;
-
-        if (_rb.velocity.x != 0)
-        {
-            stepsSound.Play();
-        }
-        else
-        {
-            stepsSound.Stop();
-        }
     }
 }
