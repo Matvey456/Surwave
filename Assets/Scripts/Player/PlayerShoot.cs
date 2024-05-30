@@ -1,16 +1,11 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerShoot : Sounds
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private GameObject firePoint;
 
-    // [SerializeField] private AudioSource playerShooting;
-    // [SerializeField] private AudioSource playerReloading;
-    // [SerializeField] private AudioSource playerNoBullet;
-    
     [SerializeField] private TMP_Text bulletText;
     
     [SerializeField] public int maxCountBullet;

@@ -6,14 +6,15 @@ using UnityEngine.SceneManagement;
 public class GameUI : MonoBehaviour
 {
     [SerializeField] private PlayerShoot playerShoot;
-    
+ 
     [SerializeField] private Animator animateUI;
     
     [SerializeField] private GameObject loseMenu;
     [SerializeField] private GameObject winMenu;
     public TMP_Text winAndLoseText;
-
+    
     private void Update() => GunIconIdle();
+    
     
     public void LoseMenuAnimate(float endValue, float speed)
     {

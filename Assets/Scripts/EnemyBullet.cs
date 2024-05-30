@@ -1,11 +1,8 @@
-using System;
 using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
     [SerializeField] private Bullet bullet;
-    [SerializeField] private Enemy enemy;
-
     [SerializeField] private GameObject target;
     [SerializeField] private float speed;
 

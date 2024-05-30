@@ -5,7 +5,6 @@ public class Enemy : MonoBehaviour
 {
     public Rigidbody2D rb;
     private Vector2 _direction;
-    private Vector3 _size;
 
     private float _currentDistance;
     
@@ -16,7 +15,6 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        _size = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
     }

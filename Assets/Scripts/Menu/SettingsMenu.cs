@@ -11,7 +11,8 @@ public class SettingsMenu : MonoBehaviour
     [Header("Control")]
     [SerializeField] private GameObject controlContextMenu;
 
-    [Header("Other")] 
+    [Header("Other")]
+    [SerializeField] private TMP_Text totelKilled;
     [SerializeField] private MenuButtons menuButtons;
 
     private Resolution[] _resolutions;
@@ -20,6 +21,8 @@ public class SettingsMenu : MonoBehaviour
 
     private void Start()
     {
+        totelKilled.text = $"total enemies killed: {StaticHolder.enemyDeath}";
+        
         _resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
         
@@ -27,16 +30,18 @@ public class SettingsMenu : MonoBehaviour
 
         for (int i = 0; i < _resolutions.Length; i++)
         {
-            string newResolution = $"{_resolutions[i].height} x {_resolutions[i].width} hz {_resolutions[i].refreshRate}";
+            var newResolution = $"{_resolutions[i].height} x {_resolutions[i].width} hz {_resolutions[i].refreshRate}";
             options.Add(newResolution);
         }
         
         resolutionDropdown.AddOptions(options);
     }
 
+    private void Update() => totelKilled.text = $"total enemies killed: {StaticHolder.enemyDeath}";
+
     public void ChangeResolution(int resolutionIndex)
     {
-        Resolution resolution = _resolutions[resolutionIndex];
+        var resolution = _resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 

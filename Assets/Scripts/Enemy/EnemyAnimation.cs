@@ -23,6 +23,9 @@ public class EnemyAnimation : MonoBehaviour
     {
         if (other.transform.CompareTag("Bullet"))
         {
+            StaticHolder.enemyDeath++;
+            Debug.Log($"Всего врагов убито: {StaticHolder.enemyDeath}");
+            
             if (!deathSound.isPlaying)
             {
                 deathSound.Play();

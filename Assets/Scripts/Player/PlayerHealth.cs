@@ -19,6 +19,7 @@ public class PlayerHealth : Sounds
         if (other.transform.CompareTag("EnemyBullet"))
         {
             Damage(damageToPlayer);
+            
             if (healthBar.value == 0)
             {
                 gameUI.winAndLoseText.text = "You lose";

@@ -6,17 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2971a5b3-e05f-4f59-b3c4-89ff93a8ce44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.surwave/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/720118__baggonotes__player_shoot1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/720118__baggonotes__player_shoot1.wav.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +30,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/AchievementControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/AchieivementsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -44,16 +48,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBulet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuButtons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Busters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonAnimate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
@@ -61,11 +59,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchMode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Achivements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StaticHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AchieivementsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AchievementControl.cs" />
       </list>
     </option>
   </component>
@@ -267,6 +274,13 @@
       <workItem from="1712649728418" duration="3742000" />
       <workItem from="1712667558914" duration="3631000" />
       <workItem from="1712673491077" duration="486000" />
+      <workItem from="1716999720042" duration="830000" />
+      <workItem from="1717056548393" duration="2703000" />
+      <workItem from="1717060696564" duration="1229000" />
+      <workItem from="1717065467555" duration="830000" />
+      <workItem from="1717068194671" duration="7029000" />
+      <workItem from="1717076050664" duration="3033000" />
+      <workItem from="1717087286022" duration="1574000" />
     </task>
     <servers />
   </component>
@@ -371,6 +385,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1893" height="1025" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1712059756051" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1717069313218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1717069313218" />
     <state x="623" y="225" width="672" height="758" key="search.everywhere.popup" timestamp="1712670921069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

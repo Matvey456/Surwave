@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
         rigidbody2D.velocity = _direction * speed;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.transform.CompareTag("Enemy"))
         {
